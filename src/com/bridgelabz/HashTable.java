@@ -9,6 +9,8 @@ public class HashTable {
                 "they keep putting themselves deliberately into paranoid avoidable situations";
         Hashtable< String, Integer> hashtable = new Hashtable();
 
+        str = str.replace("avoidable"," ");
+
         String[] words = str.split(" ");
 
         for (String word : words) {
